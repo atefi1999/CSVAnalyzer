@@ -22,9 +22,9 @@ pip install pandas matplotlib
 ```
 
 
-
+---
 ▶️ Usage Example
-
+```backtick
 from csv_analyzer import CSVAnalyzer
 
 # Create analyzer object
@@ -45,10 +45,10 @@ analyzer.plot_column("Age", plot_type="histogram")
 
 # Plot line chart of Age column
 analyzer.plot_column("Age", plot_type="line")
+```
 
 
-
-
+---
 📊 Example Output
 
 Statistical summary of numeric columns
@@ -58,13 +58,11 @@ Histogram of selected column
 Line chart of selected column
 
 
-
+---
 📂 Project Structure
-
+```markdown
 .
 ├── csv_analyzer.py    # Main code file
 ├── sample.csv         # Example dataset
 └── README.md          # Project documentation
-
-
-
+```
