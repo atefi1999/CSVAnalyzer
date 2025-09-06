@@ -23,7 +23,7 @@ pip install pandas matplotlib
 
 
 ---
-▶️ Usage Example
+## ▶️ Usage Example
 ```backtick
 from csv_analyzer import CSVAnalyzer
 
@@ -49,7 +49,7 @@ analyzer.plot_column("Age", plot_type="line")
 
 
 ---
-📊 Example Output
+## 📊 Example Output
 
 Statistical summary of numeric columns
 
@@ -59,7 +59,7 @@ Line chart of selected column
 
 
 ---
-📂 Project Structure
+## 📂 Project Structure
 ```markdown
 .
 ├── csv_analyzer.py    # Main code file
