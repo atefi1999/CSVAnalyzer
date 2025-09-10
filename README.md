@@ -50,13 +50,11 @@ analyzer.plot_column("Age", plot_type="line")
 
 ---
 ## 📊 Example Output
-
+```backtick
 Statistical summary of numeric columns
-
 Histogram of selected column
-
 Line chart of selected column
-
+```
 
 ---
 ## 📂 Project Structure
